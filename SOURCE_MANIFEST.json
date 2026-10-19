@@ -319,8 +319,8 @@
     },
     {
       "path": "README.md",
-      "size_bytes": 6912,
-      "sha256": "3d62c1f13d1355de4574da3a8ecee9aa5ac6baa02bbf37b62cdc15e1491d8977"
+      "size_bytes": 6848,
+      "sha256": "c20f942cae66d39f8f5f23894635dcd0aeffae2ff3b3bfac34ad4d60784e470e"
     },
     {
       "path": "requirements-build.txt",

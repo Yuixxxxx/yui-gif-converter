@@ -71,7 +71,6 @@ so Windows may show an unknown-publisher warning.
 | Processor | Intel or AMD x64 |
 | Memory | 4 GB or more recommended; needs vary with media |
 | Free storage | Allow 250 MB to download, extract, and open, plus space for media and exports |
-| Internet | Needed for downloading; conversion works offline |
 
 For websites with a decimal **10 MB** upload limit, choose Yui's **8 MB** preset.
 The full [user guide](docs/USER_GUIDE.md) covers editing, shortcuts, and troubleshooting.
