@@ -1,45 +1,118 @@
-# Yui GIF Converter
+<p align="center">
+  <img src="assets/logo.png" alt="Yui logo" width="84" height="84">
+</p>
 
-Free, offline GIF conversion and editing for Windows 10/11 (64-bit).
+<h1 align="center">Yui GIF Converter</h1>
 
-This repository contains the actual Yui **1.6.0 application source**, tests,
-build tools, artwork and component notices. Browse `app.py` and `yui/` directly
-on GitHub, or clone the repository to inspect and build it locally.
+<p align="center">
+  <strong>Small GIFs. Big personality.</strong><br>
+  Turn videos and images into GIFs. Add your own text, stickers, and finishing touches.
+</p>
 
-## Get the code
+<p align="center">
+  Free to use &nbsp;·&nbsp; Works offline &nbsp;·&nbsp; Windows 10 / 11 &nbsp;·&nbsp; Portable
+</p>
+
+<p align="center">
+  <a href="https://github.com/Yuixxxxx/yui-gif-converter/releases/download/v1.6.0/YuiGifConverter-1.6.0-full-package.zip"><img src="docs/images/download.svg" alt="Download for Windows" width="268" height="56"></a>
+  <a href="yui/"><img src="docs/images/source.svg" alt="Browse the source code" width="196" height="56"></a>
+</p>
+
+<p align="center">
+  <sub>v1.6.0 &nbsp;·&nbsp; 59.6 MB ZIP (56.8 MiB) &nbsp;·&nbsp; Windows x64</sub><br>
+  <a href="docs/USER_GUIDE.md">User guide</a> &nbsp;·&nbsp;
+  <a href="https://github.com/Yuixxxxx/yui-gif-converter/releases/tag/v1.6.0">Release notes</a> &nbsp;·&nbsp;
+  <a href="docs/DEVELOPMENT.md">Build from source</a>
+</p>
+
+<p align="center">
+  <a href="docs/images/yui-main.jpg"><img src="docs/images/yui-main.jpg" alt="Yui's dark interface with a media list, conversion presets, creative tools, and the Create GIF button." width="960"></a>
+  <br><sub>The actual Yui app. Click any screenshot to see it full size.</sub>
+</p>
+
+## From clip to something worth sharing
+
+| Make it | Make it yours | Make it fit |
+| :--- | :--- | :--- |
+| **Videos → GIFs** and **images → GIFs** | Text, image stickers, and watermarks | Measured output limits up to **10 MiB** |
+| Combine files or export a GIF for each | Crop, resize, effects, and reverse | Frame rate, speed, and palette controls |
+| Trim clips, split segments, and extract PNG frames | Save a still **PNG poster** | Reusable conversion presets |
+
+## A little creative freedom
+
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <a href="docs/images/yui-designer.jpg"><img src="docs/images/yui-designer.jpg" alt="Text and sticker designer with a caption layer, font controls, size, rotation, opacity, and poster export." width="480"></a><br>
+      <strong>Text, stickers &amp; watermarks</strong><br>
+      <sub>Place layers, adjust their look, or save a poster.</sub>
+    </td>
+    <td width="50%" align="center">
+      <a href="docs/images/yui-tools.jpg"><img src="docs/images/yui-tools.jpg" alt="Media tools with crop controls, colour effects, reverse playback, palette settings, clip splitting, and frame extraction." width="480"></a><br>
+      <strong>Crop, colour &amp; frame tools</strong><br>
+      <sub>Refine a clip before turning it into a GIF.</sub>
+    </td>
+  </tr>
+</table>
+
+## Download. Extract. Create.
+
+1. **[Download Yui for Windows](https://github.com/Yuixxxxx/yui-gif-converter/releases/download/v1.6.0/YuiGifConverter-1.6.0-full-package.zip)** and extract the ZIP.
+2. Open **`YuiGifConverter.exe`** and review the first-launch terms.
+3. Drop in videos or images, adjust your options, and choose **Create GIF**.
+4. Preview your result, then save or copy it to share.
+
+Python and FFmpeg are included in the portable app. The EXE is currently unsigned,
+so Windows may show an unknown-publisher warning.
+
+| Before you download | Requirements |
+| :--- | :--- |
+| Operating system | Windows 10 or 11, 64-bit |
+| Processor | Intel or AMD x64 |
+| Memory | 4 GB or more recommended; needs vary with media |
+| Free storage | Allow 250 MB to download, extract, and open, plus space for media and exports |
+| Internet | Needed for downloading; conversion works offline |
+
+For websites with a decimal **10 MB** upload limit, choose Yui's **8 MB** preset.
+The full [user guide](docs/USER_GUIDE.md) covers editing, shortcuts, and troubleshooting.
+
+## Your files stay on your computer
+
+Conversion runs locally and requires no account or media upload. Original files
+are preserved. See the [privacy and local-data details](docs/USER_GUIDE.md#files-and-privacy)
+for settings, output folders, and clipboard behavior.
+
+## Inspect the code
+
+The actual **1.6.0 application source**, tests, artwork, and build tools are here
+as normal Git files. Start with [app.py](app.py), the [application modules](yui/),
+or the [build script](build.ps1).
 
 ```sh
 git clone https://github.com/Yuixxxxx/yui-gif-converter.git
 cd yui-gif-converter
 ```
 
-Start with [app.py](app.py), the [application modules](yui), and the
-[build script](build.ps1). Follow [Development](docs/DEVELOPMENT.md) to run the
-app from source or build an EXE. The build uses Windows x64, Python 3.14.8 or a
-newer Python 3.14 maintenance version, and the pinned requirements files.
+<details>
+<summary><strong>Run or build Yui yourself</strong></summary>
 
-## Download the Windows app
+Follow [Development](docs/DEVELOPMENT.md) for the complete setup, FFmpeg preparation,
+and build steps. Building uses Windows x64, Python 3.14.8 or a newer Python 3.14
+maintenance version, and the pinned requirements files.
 
-Get **YuiGifConverter-1.6.0-full-package.zip** from the
-[1.6.0 release](https://github.com/Yuixxxxx/yui-gif-converter/releases/tag/v1.6.0),
-extract it, and open `YuiGifConverter.exe`. A separate Python installation is
-not needed for that download. The portable app is unsigned.
+The original `v1.6.0` tag predates source publication. Use **`main`** for the
+complete application source; the release also retains a source ZIP snapshot.
 
-## Features
+</details>
 
-- Convert videos or images into GIFs; combine files or export separately.
-- Trim, resize, crop, adjust speed, reverse, add effects, and control palettes.
-- Add text, stickers and watermarks, or export a still PNG poster.
-- Split clips, extract frames, and choose a measured output limit up to 10 MiB.
+<details>
+<summary><strong>Check the source and published download</strong></summary>
 
-See the [User guide](docs/USER_GUIDE.md) for usage and local data locations.
-
-## Inspect and verify
-
-All 19 application files compile to the same Python code objects as those
+All **19 application files** compile to the same Python code objects as those
 embedded in the published 1.6.0 EXE, after normalizing source filenames.
 [Verification](docs/VERIFICATION.md) explains the comparison and its limits.
-`SOURCE_MANIFEST.json` records individual source hashes and the binary used.
+[SOURCE_MANIFEST.json](SOURCE_MANIFEST.json) records individual file hashes and
+the binary used.
 
 ```powershell
 python tools\verify_source.py
@@ -47,20 +120,40 @@ python tools\verify_source.py
 python tools\verify_source.py --exe .\YuiGifConverter.exe
 ```
 
-The optional comparison parses the EXE as data; it does not execute it.
-This is not a complete binary audit or a bit-for-bit reproducible build claim.
-The original `v1.6.0` tag predates the source commit; browse or clone `main` for
-the complete source. The release also retains a source ZIP as a snapshot.
+The optional comparison reads the EXE as data without executing it. It does not
+establish a full binary audit or a bit-for-bit reproducible build.
 
-## Privacy and terms
+SHA-256 of the **Windows ZIP**:
 
-Conversion happens locally and requires no account or media upload. This
-repository excludes private media, logs, local settings, credentials, virtual
-environments and previous build output. The included assets and creator links
-are intentional public branding:
-[Buy me a matcha on Ko-fi](https://ko-fi.com/yui_xxx) and
-[Yui on JuicyChat](https://www.juicychat.ai/userdetailspace/1933409514837725186).
+```text
+3217a1951071cf3cf81ea4ad07596fc902f8f15754adac229df9c1c97646ed96
+```
 
-Copyright © 2026 Yui. Existing application terms remain in [LICENSE.txt](LICENSE.txt).
-Publishing the source does not select a new open-source license. Components
-retain their own licenses and notices in `legal/` and `vendor/`.
+</details>
+
+## A matcha is optional
+
+Yui is free to use. If it makes your day easier, a little support helps keep
+the updates coming.
+
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <a href="https://ko-fi.com/yui_xxx"><img src="assets/kofi-logo.png" alt="Ko-fi" width="64"></a><br>
+      <a href="https://ko-fi.com/yui_xxx"><strong>Buy me a matcha ↗</strong></a><br>
+      <sub>Optional support on Ko-fi</sub>
+    </td>
+    <td width="50%" align="center">
+      <a href="https://www.juicychat.ai/userdetailspace/1933409514837725186"><img src="assets/juicychat-avatar.png" alt="Yui's creator profile avatar" width="64" height="64"></a><br>
+      <a href="https://www.juicychat.ai/userdetailspace/1933409514837725186"><strong>Yui on JuicyChat ↗</strong></a><br>
+      <sub>Visit the creator profile</sub>
+    </td>
+  </tr>
+</table>
+
+---
+
+<sub>© 2026 Yui. Application source is published under the existing
+<a href="LICENSE.txt">application terms</a>; this does not select a new open-source
+license. Third-party components retain their own <a href="legal/">licenses and
+notices</a>, with corresponding FFmpeg source in <a href="vendor/">vendor/</a>.</sub>

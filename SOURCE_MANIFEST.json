@@ -183,6 +183,31 @@
       "sha256": "0c83dd86e195db61034e2781ba5d0875374731f4e358d90f32cc7ddbada806d7"
     },
     {
+      "path": "docs/images/download.svg",
+      "size_bytes": 761,
+      "sha256": "b99a6ec5b155fa90738db49a05b3de4b220600490820ffd96606b0715896e461"
+    },
+    {
+      "path": "docs/images/source.svg",
+      "size_bytes": 589,
+      "sha256": "47b94ce368c15a8cbac7a009ae8773d298cb4d22ba1048378d1048542639dd65"
+    },
+    {
+      "path": "docs/images/yui-designer.jpg",
+      "size_bytes": 97410,
+      "sha256": "0c5da86d4212f52494d65937680519c7516d96ac6feb7ca3823776fa8c110e58"
+    },
+    {
+      "path": "docs/images/yui-main.jpg",
+      "size_bytes": 69796,
+      "sha256": "47b8d92ff340982d12e80191775b829cb38612ff8c97e175f7ceef1f5298baf8"
+    },
+    {
+      "path": "docs/images/yui-tools.jpg",
+      "size_bytes": 95769,
+      "sha256": "e85b77169994bd294b651ff2a4a7f8cf9ba4dd44075d57464f0169ef08d39a71"
+    },
+    {
       "path": "docs/USER_GUIDE.md",
       "size_bytes": 6872,
       "sha256": "88f08c1432566e616d4eb4973f8fb828c62ef79c2ccba8446bb16b00a2d86d1c"
@@ -294,8 +319,8 @@
     },
     {
       "path": "README.md",
-      "size_bytes": 2882,
-      "sha256": "2aaa2cd02377e2b06b1bbf038e989c460e96c395166c7a520b982b5c46096c37"
+      "size_bytes": 6850,
+      "sha256": "7c02466a0bde5945c8f4c3b910e37df4c6d9640fe53cb973b9ae4c5029752b43"
     },
     {
       "path": "requirements-build.txt",
