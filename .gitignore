@@ -1,0 +1,13 @@
+.venv*/
+__pycache__/
+*.py[cod]
+build/
+dist/
+work/
+bin/
+.env
+.env.*
+*.log
+vendor/source-payload.zip
+vendor/source-manifest.json
+YuiGifConverter.exe

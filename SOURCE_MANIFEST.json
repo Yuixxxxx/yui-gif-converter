@@ -1,0 +1,601 @@
+{
+  "app_version": "1.6.0",
+  "release_url": "https://github.com/Yuixxxxx/yui-gif-converter/releases/tag/v1.6.0",
+  "binary_zip": {
+    "file": "YuiGifConverter-1.6.0-full-package.zip",
+    "size_bytes": 59603075,
+    "sha256": "3217a1951071cf3cf81ea4ad07596fc902f8f15754adac229df9c1c97646ed96"
+  },
+  "executable": {
+    "file": "YuiGifConverter.exe",
+    "sha256": "d16c0db8a2cebefe57fdc7da2e4264d0422ed308995661ada25e3ac24aae4ea1"
+  },
+  "application_code_comparison": {
+    "normalization": "Only code-object source filenames are replaced with an empty string.",
+    "all_match": true,
+    "files": [
+      {
+        "file": "app.py",
+        "matches_release": true,
+        "source_sha256": "7b866ba2c3e0ad86a7380f24a19c5d86a3bd482ed5d827fcff0e2d4f41283bae"
+      },
+      {
+        "file": "yui/__init__.py",
+        "matches_release": true,
+        "source_sha256": "6f778252f9cd275849c98ec53e6ee28c3c61174721f2cae2774210f1318499b4"
+      },
+      {
+        "file": "yui/designer.py",
+        "matches_release": true,
+        "source_sha256": "7d4ebeddf4ddb22e0de0bd07dab83c11d173bff1dc2c8a28fec1f9f085a6a026"
+      },
+      {
+        "file": "yui/dialogs.py",
+        "matches_release": true,
+        "source_sha256": "8188764a44454dcefef1940ba967830135a98c30b9992a63e46a88d29fd03b68"
+      },
+      {
+        "file": "yui/engine.py",
+        "matches_release": true,
+        "source_sha256": "2f600915f94621577e946f76f6c0ecfa13268467d8363886736967e2196e22da"
+      },
+      {
+        "file": "yui/legal.py",
+        "matches_release": true,
+        "source_sha256": "78e8ada9338ee2cb442c8ec7deeeb21d610abedd1b100941ff34dbd40f55519d"
+      },
+      {
+        "file": "yui/media_tools.py",
+        "matches_release": true,
+        "source_sha256": "260259496c0aaf1e1544a55cabaa2428845622c5330525d77dd2856773c958d5"
+      },
+      {
+        "file": "yui/overlays.py",
+        "matches_release": true,
+        "source_sha256": "1796ca14abe686371a4f2322d8e25ae28fe433638ed0fdccc70eb4777c122864"
+      },
+      {
+        "file": "yui/paths.py",
+        "matches_release": true,
+        "source_sha256": "b3c16f67fe20c1b2ed367786697920c402b1d938be687363d9a2981b7e80cc06"
+      },
+      {
+        "file": "yui/presets.py",
+        "matches_release": true,
+        "source_sha256": "00d49a0fe515bddde905223fbad161993355a7e937225fa2a2aed085c13878d5"
+      },
+      {
+        "file": "yui/preview.py",
+        "matches_release": true,
+        "source_sha256": "d35c3067a1bbbfd28c04bfae07575c2f48c1cfca7fa092c01b425bec2dbec424"
+      },
+      {
+        "file": "yui/runtime.py",
+        "matches_release": true,
+        "source_sha256": "b29ddf52b4436062a67c05202bf48b42f31dd4586308e338ed0ea47787578ba7"
+      },
+      {
+        "file": "yui/settings.py",
+        "matches_release": true,
+        "source_sha256": "72584cb18fa2ae23b010d1d46359f1c70e3b667d6ae25dbc944afd96b9f0cd4c"
+      },
+      {
+        "file": "yui/source_bundle.py",
+        "matches_release": true,
+        "source_sha256": "392f1e4a1ac66cd530db053e3aa461633f79e04f34d3c5e10662201b12bdce08"
+      },
+      {
+        "file": "yui/toolbox.py",
+        "matches_release": true,
+        "source_sha256": "ee96a7eeb945d40c02716551fcaecadbf46a178855c6e0e9003928a1ac810ca3"
+      },
+      {
+        "file": "yui/transforms.py",
+        "matches_release": true,
+        "source_sha256": "a670b180dfd08ff0e9636fca31352cd093fc1263276b495cd380df5816de3cdd"
+      },
+      {
+        "file": "yui/ui.py",
+        "matches_release": true,
+        "source_sha256": "ca0a54a93732345a334fbada16d00c0d2c5638cc7f55ccc2af2a18186ede965c"
+      },
+      {
+        "file": "yui/widgets.py",
+        "matches_release": true,
+        "source_sha256": "1744dbe018effb27cc9ee443622ab8cd7377fda9f489e3b164dfc5ebd0387104"
+      },
+      {
+        "file": "yui/windows.py",
+        "matches_release": true,
+        "source_sha256": "920d5a69f3b58e939387a1fa9732b0da8aac036b1c5cf7a9fb65a023b3936925"
+      }
+    ]
+  },
+  "python_syntax_checks": 56,
+  "component_source_checks": {
+    "archive_valid": true,
+    "upstream_archives_verified": 5
+  },
+  "files": [
+    {
+      "path": ".gitattributes",
+      "size_bytes": 66,
+      "sha256": "58e1f0ba1c5d31807495cf13e513f8fe1f1291d0681efc148404fc5b72f0633c"
+    },
+    {
+      "path": ".gitignore",
+      "size_bytes": 147,
+      "sha256": "a1800f1ac31feaab1bf5eeec14d0605933b089a1ac41dd8a40a9b102864163a3"
+    },
+    {
+      "path": "app.py",
+      "size_bytes": 17907,
+      "sha256": "7b866ba2c3e0ad86a7380f24a19c5d86a3bd482ed5d827fcff0e2d4f41283bae"
+    },
+    {
+      "path": "assets/icon.ico",
+      "size_bytes": 41153,
+      "sha256": "8059bbed6f996794ca203a9252c7a9cd2b54f8e6efddc56c31c4f9144b0283ad"
+    },
+    {
+      "path": "assets/juicychat-avatar.png",
+      "size_bytes": 123385,
+      "sha256": "1a624240e3305a4f56e45ef44b6e70884683c80f7633ec3fd240de6f3779dce4"
+    },
+    {
+      "path": "assets/juicychat-button.png",
+      "size_bytes": 44830,
+      "sha256": "c20d9dc577a1fe8c883c89de2d22d2d16e61ec7b5c9e938688b43f47e7d48612"
+    },
+    {
+      "path": "assets/kofi-button.png",
+      "size_bytes": 51610,
+      "sha256": "ffa79e335999122e4eb21087b04ef760851180731d72f58a670061adb26c3fe4"
+    },
+    {
+      "path": "assets/kofi-logo.png",
+      "size_bytes": 9277,
+      "sha256": "2b94d2f57849ab4dc30c9160db9e6def242e59818158f8fd83a4ab2c500eea2c"
+    },
+    {
+      "path": "assets/logo.png",
+      "size_bytes": 18808,
+      "sha256": "b29fa7dbed1a6d14e32554dad65d3cbf2259fc079b001542841904f7f8d35db2"
+    },
+    {
+      "path": "assets/splash.png",
+      "size_bytes": 33256,
+      "sha256": "d4cc670e9f5e268ffefe3a8c81229f405b537b5b381af290ec3e2321248aa79b"
+    },
+    {
+      "path": "build.ps1",
+      "size_bytes": 7857,
+      "sha256": "9b953db1f0d2affee68206e93f741d9a0e7696c9c867e555537c449dd7d46cfe"
+    },
+    {
+      "path": "docs/DEVELOPMENT.md",
+      "size_bytes": 3781,
+      "sha256": "de2ce2f9ce8af9d88235d97eb526026b35431e0bdac7ab4d89be8c553e929637"
+    },
+    {
+      "path": "docs/DISTRIBUTING.md",
+      "size_bytes": 1218,
+      "sha256": "0c83dd86e195db61034e2781ba5d0875374731f4e358d90f32cc7ddbada806d7"
+    },
+    {
+      "path": "docs/USER_GUIDE.md",
+      "size_bytes": 6872,
+      "sha256": "88f08c1432566e616d4eb4973f8fb828c62ef79c2ccba8446bb16b00a2d86d1c"
+    },
+    {
+      "path": "docs/VERIFICATION.md",
+      "size_bytes": 1928,
+      "sha256": "2fc601a324acda68b2966ed7e8b6b2a351cad29c2fc310d310cc6e9834b00682"
+    },
+    {
+      "path": "legal/licenses/CustomTkinter-MIT.txt",
+      "size_bytes": 1071,
+      "sha256": "c973b8600e620159cb0473eb9b08783143e0d9ed5333f350fc933368d94d9e0d"
+    },
+    {
+      "path": "legal/licenses/darkdetect-BSD-3-Clause.txt",
+      "size_bytes": 1495,
+      "sha256": "69bb84664eff933addcb271c866d67622d9c2c53a5bda31b1a7523569c250afe"
+    },
+    {
+      "path": "legal/licenses/dav1d-BSD-2-Clause.txt",
+      "size_bytes": 1317,
+      "sha256": "dd92c3c2247c5651606fc23a5e2d6a1ebc5ace9a3e49cbde0e12f05ad1cb1ee5"
+    },
+    {
+      "path": "legal/licenses/FFmpeg-GPL-3.0.txt",
+      "size_bytes": 35149,
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+    },
+    {
+      "path": "legal/licenses/GCC-Runtime-Exception-3.1.txt",
+      "size_bytes": 3324,
+      "sha256": "9d6b43ce4d8de0c878bf16b54d8e7a10d9bd42b75178153e3af6a815bdc90f74"
+    },
+    {
+      "path": "legal/licenses/libvpx-BSD-and-PATENTS.txt",
+      "size_bytes": 8299,
+      "sha256": "bb1b8a7fa507eb42906531d43ec90cde072c62f91fcede679198f5794ee01d07"
+    },
+    {
+      "path": "legal/licenses/MinGW-w64-runtime.txt",
+      "size_bytes": 15076,
+      "sha256": "ecff91ddb5799c8b79a4bdb576921b9c3e2989783fd1944527e8eb9b41a5ff5f"
+    },
+    {
+      "path": "legal/licenses/packaging-Apache-2.0.txt",
+      "size_bytes": 10174,
+      "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594"
+    },
+    {
+      "path": "legal/licenses/packaging-BSD-2-Clause.txt",
+      "size_bytes": 1344,
+      "sha256": "b70e7e9b742f1cc6f948b34c16aa39ffece94196364bc88ff0d2180f0028fac5"
+    },
+    {
+      "path": "legal/licenses/Pillow-MIT-CMU.txt",
+      "size_bytes": 78016,
+      "sha256": "4f7866a74802c6326f81faff59a56546b6aec2b10b91973e0e9308de95e79857"
+    },
+    {
+      "path": "legal/licenses/PyInstaller-GPL-2.0-with-bootloader-exception.txt",
+      "size_bytes": 32604,
+      "sha256": "0598064c7d2718e38d7914a7d08343b2fa008e3bea9ebba2aa7a6ffa5900dd64"
+    },
+    {
+      "path": "legal/licenses/Python-PSF.txt",
+      "size_bytes": 35500,
+      "sha256": "8b118ff55fecfb456a77061e8b0546cfa105ec9530ed7e52821db5ea5b531b5f"
+    },
+    {
+      "path": "legal/licenses/Tcl-Tk-BSD-style.txt",
+      "size_bytes": 2307,
+      "sha256": "0d1e4405f6273f091732764ed89b57066be63ce64869be6c71ea337dc4f2f9b5"
+    },
+    {
+      "path": "legal/licenses/tkinterdnd2-MIT.txt",
+      "size_bytes": 1072,
+      "sha256": "cb0b1019296ff5303a64a1611ed9da5fa738127119f7a4f92fedf3e61f572f05"
+    },
+    {
+      "path": "legal/licenses/x264-GPL-2.0.txt",
+      "size_bytes": 17992,
+      "sha256": "32b1062f7da84967e7019d01ab805935caa7ab7321a7ced0e30ebe75e5df1670"
+    },
+    {
+      "path": "legal/licenses/zlib.txt",
+      "size_bytes": 1002,
+      "sha256": "e32ff4e00d9d94930537635291da39e7e612703334bf6fde8c7f1686fe8a45a2"
+    },
+    {
+      "path": "legal/PRIVACY.txt",
+      "size_bytes": 2182,
+      "sha256": "2af797e60c2c81b8b7c1bbbb0c03ed7f2a49cff1f1d305fa680ee557c8578c04"
+    },
+    {
+      "path": "legal/TERMS.txt",
+      "size_bytes": 1728,
+      "sha256": "596ce708882bb7abf0e7bc68bec6252137505ea8c6584dbfa8cc8a29d1c11ec3"
+    },
+    {
+      "path": "legal/THIRD_PARTY_NOTICES.txt",
+      "size_bytes": 4755,
+      "sha256": "2ef05774bbcd4f3d897af3749f9c714e0a72ce83d27e3faaa88a9d5d67cda2d0"
+    },
+    {
+      "path": "LICENSE.txt",
+      "size_bytes": 1706,
+      "sha256": "99aa26a0dc2bd7787da8f254c1d2f931b636122b73d289cd6bf6e81bfc68cb98"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 2882,
+      "sha256": "2aaa2cd02377e2b06b1bbf038e989c460e96c395166c7a520b982b5c46096c37"
+    },
+    {
+      "path": "requirements-build.txt",
+      "size_bytes": 20,
+      "sha256": "4439c693c19271e4b0bdc56c641c36b3b06010b1b22eae6733cd244d752e85d5"
+    },
+    {
+      "path": "requirements.txt",
+      "size_bytes": 89,
+      "sha256": "59e9cd5db260070b3a524fc2d6834c50421ed2d418b35f5f8bc0139afbfd3fea"
+    },
+    {
+      "path": "tests/background_test.py",
+      "size_bytes": 3496,
+      "sha256": "ef233ac13f99b21eeada3aa1817789b224c9f8b3d0ce064ceec977857d529c4b"
+    },
+    {
+      "path": "tests/designer_integration_test.py",
+      "size_bytes": 5509,
+      "sha256": "153a560398231a3156bd2435727b74a490646526a102765b843e4afb4c773da4"
+    },
+    {
+      "path": "tests/designer_test.py",
+      "size_bytes": 15507,
+      "sha256": "1e45ab1e1877b647f16258dbbb7c99881271b0c96f8e3b8a4bf28dc22d2fe196"
+    },
+    {
+      "path": "tests/dialogs_test.py",
+      "size_bytes": 12377,
+      "sha256": "38cd5015011a5826204546195bbfd81b210e38872918f03a6ce79cac087cd879"
+    },
+    {
+      "path": "tests/drag_drop_test.py",
+      "size_bytes": 6076,
+      "sha256": "fdabdc78d2f5fefd1c22efef28bd22328aae701fa42a21992ee3670d1604e69e"
+    },
+    {
+      "path": "tests/edit_engine_test.py",
+      "size_bytes": 12705,
+      "sha256": "a41a3cda3d408170b96eb659e3d2691f8640acc4a6181c09c415e947e766aa7a"
+    },
+    {
+      "path": "tests/editing_integration_test.py",
+      "size_bytes": 6642,
+      "sha256": "237acc28c5b0db7739eddd2007b610b32790401cf4ca5d1af948c2ceaecfd9e1"
+    },
+    {
+      "path": "tests/editing_settings_test.py",
+      "size_bytes": 3726,
+      "sha256": "a3653d421b326d26388f93dc9ab858609739357f20c75181456035809de85915"
+    },
+    {
+      "path": "tests/features_test.py",
+      "size_bytes": 8827,
+      "sha256": "ca0df14153ef12960c782ff6b687af72a15517968ba97c9514bbc89d2fb0b021"
+    },
+    {
+      "path": "tests/footer_alignment_test.py",
+      "size_bytes": 3520,
+      "sha256": "aa4d727aefb21222e2f806c4ef770abdde4eba0ce6d3e0e417c40e1a8e8658f8"
+    },
+    {
+      "path": "tests/in_app_bundle_test.py",
+      "size_bytes": 12223,
+      "sha256": "8a3251da1f96e0f5d6b27ded4a1e709199a1c8d8b1027710c110e4e3ef5da107"
+    },
+    {
+      "path": "tests/interaction_test.py",
+      "size_bytes": 7821,
+      "sha256": "18b6094d149d9d00c6b69c3d837b2174f3c375659388d7ce91128dc24848460a"
+    },
+    {
+      "path": "tests/media_tools_test.py",
+      "size_bytes": 17815,
+      "sha256": "2561b1e08676c9c63884681587a5f2d31ab5be1c0eb3c77c3b0c953b2d3e20bd"
+    },
+    {
+      "path": "tests/overlays_test.py",
+      "size_bytes": 17041,
+      "sha256": "5608802c4c233538e554622d72ed8a8608269ad66001cc3dc5ec0bf52fbd59fe"
+    },
+    {
+      "path": "tests/panel_corners_test.py",
+      "size_bytes": 3796,
+      "sha256": "5b64be279eea69ba26de22d28014a90942a765929fdc241405169ee76a0b4fa5"
+    },
+    {
+      "path": "tests/performance_test.py",
+      "size_bytes": 4275,
+      "sha256": "f08a8257e3c9730ac2214ad025b5e3214f27517a324d4ab70ee23ddd25c9f685"
+    },
+    {
+      "path": "tests/polish_test.py",
+      "size_bytes": 8285,
+      "sha256": "ee54974f0de869704d966a09383da4719b413cf4786cce4c652c96d25d1585d5"
+    },
+    {
+      "path": "tests/presets_test.py",
+      "size_bytes": 9841,
+      "sha256": "3063eb03b74be4a817333813793d95a6463e093285a74df8d66882c7b761870e"
+    },
+    {
+      "path": "tests/preview_controls_test.py",
+      "size_bytes": 9278,
+      "sha256": "9720e6f3c004705d0de0afa7a9ebf865849650c410e79b0c996afc9af4726bda"
+    },
+    {
+      "path": "tests/preview_test.py",
+      "size_bytes": 9710,
+      "sha256": "8ca796972cc1eea9b26b58302662700dc9c12eb8b918f9c001205c5558262d77"
+    },
+    {
+      "path": "tests/privacy_test.py",
+      "size_bytes": 3703,
+      "sha256": "9d803b7764703ad6df8e60f80f83e444ab27e2f0a0f0a80caa947ca538e54e27"
+    },
+    {
+      "path": "tests/reliability_test.py",
+      "size_bytes": 10632,
+      "sha256": "27bf68d9c097da8c0c5daf0216083c5c351f0b7fc8f8e237c7bb6529c7012ed9"
+    },
+    {
+      "path": "tests/runtime_integrity_test.py",
+      "size_bytes": 1850,
+      "sha256": "842bb26953f04abb1c989767f6ea4bc62619da9597789080f93b1026e9e1a174"
+    },
+    {
+      "path": "tests/save_copy_test.py",
+      "size_bytes": 8542,
+      "sha256": "1438408dc213694fcbe214924101e1dc69db3fb57171d2cd390655059f08c87a"
+    },
+    {
+      "path": "tests/security_integration_test.py",
+      "size_bytes": 20541,
+      "sha256": "fe165c7b24e47a8d500b1497c6e758e6ca0cccae48106f371107d923237d9f5c"
+    },
+    {
+      "path": "tests/security_media_test.py",
+      "size_bytes": 9630,
+      "sha256": "4a76f690febd0a0af7a52edda68ce241a93d7a1b29dda09b6b887187e1767071"
+    },
+    {
+      "path": "tests/security_paths_test.py",
+      "size_bytes": 8931,
+      "sha256": "b237cc3c3ddbe3d8a352aa008d667c37cc3a04b35acf67f74b39b67c688cf24e"
+    },
+    {
+      "path": "tests/smoke_test.py",
+      "size_bytes": 7395,
+      "sha256": "91ab267910138d32455f1a02a32ba15cb59ea5393dea3f413ce11bf9aa1e4480"
+    },
+    {
+      "path": "tests/watermark_test.py",
+      "size_bytes": 12454,
+      "sha256": "4038ff02f84ef72ab56cdf38547920f0b12c0bd2490c1ce15ae4919cbdd42cd0"
+    },
+    {
+      "path": "tools/check_release_privacy.py",
+      "size_bytes": 7581,
+      "sha256": "8c09ee209f1e5a2966d3b49227d7c0b4780a6cff2b926370750ad6cb539bb024"
+    },
+    {
+      "path": "tools/embed_release_materials.py",
+      "size_bytes": 4093,
+      "sha256": "0c02fbded995430b1b8d05b540d6287a6ff8fa7233635d3b7dd65d546c9655ec"
+    },
+    {
+      "path": "tools/fetch_ffmpeg.py",
+      "size_bytes": 2058,
+      "sha256": "c00827e07f561d92fd36e2bba32f6a7c016030164154f6a99187d6e31ef12139"
+    },
+    {
+      "path": "tools/make_assets.py",
+      "size_bytes": 4033,
+      "sha256": "3bf38bb2c4f089162d833ab1030b3ac797d801d990ea440fb62714321805c9de"
+    },
+    {
+      "path": "tools/make_profile_button.py",
+      "size_bytes": 1496,
+      "sha256": "7aac3c4c4702db8018292316ae6e36ae35dece01a59d7bbf28d0d7f18d37a4d4"
+    },
+    {
+      "path": "tools/package_release.py",
+      "size_bytes": 1789,
+      "sha256": "de2fca335ad6ab4d24feb12c21ce936c05558db13df05472c0cabd5ae0401cad"
+    },
+    {
+      "path": "tools/verify_source.py",
+      "size_bytes": 2951,
+      "sha256": "723b1e60a7672d80f6447b7852f4fc9b3e71c4ad1148874a464c7a9f1d46d513"
+    },
+    {
+      "path": "vendor/FFmpeg-corresponding-source.zip",
+      "size_bytes": 21141488,
+      "sha256": "0c979ed1bb5949791127e59e0a002239778bbb3cfe9efe4766fbc4b0951334ea"
+    },
+    {
+      "path": "version_info.txt",
+      "size_bytes": 942,
+      "sha256": "df738d5e22f584dfa9a7bb7278029df32c9b6be35b7cabdaad835d7ae4c1b0ac"
+    },
+    {
+      "path": "yui/__init__.py",
+      "size_bytes": 464,
+      "sha256": "6f778252f9cd275849c98ec53e6ee28c3c61174721f2cae2774210f1318499b4"
+    },
+    {
+      "path": "yui/designer.py",
+      "size_bytes": 46333,
+      "sha256": "7d4ebeddf4ddb22e0de0bd07dab83c11d173bff1dc2c8a28fec1f9f085a6a026"
+    },
+    {
+      "path": "yui/dialogs.py",
+      "size_bytes": 7783,
+      "sha256": "8188764a44454dcefef1940ba967830135a98c30b9992a63e46a88d29fd03b68"
+    },
+    {
+      "path": "yui/engine.py",
+      "size_bytes": 54462,
+      "sha256": "2f600915f94621577e946f76f6c0ecfa13268467d8363886736967e2196e22da"
+    },
+    {
+      "path": "yui/legal.py",
+      "size_bytes": 1720,
+      "sha256": "78e8ada9338ee2cb442c8ec7deeeb21d610abedd1b100941ff34dbd40f55519d"
+    },
+    {
+      "path": "yui/media_tools.py",
+      "size_bytes": 13139,
+      "sha256": "260259496c0aaf1e1544a55cabaa2428845622c5330525d77dd2856773c958d5"
+    },
+    {
+      "path": "yui/overlays.py",
+      "size_bytes": 23121,
+      "sha256": "1796ca14abe686371a4f2322d8e25ae28fe433638ed0fdccc70eb4777c122864"
+    },
+    {
+      "path": "yui/paths.py",
+      "size_bytes": 4596,
+      "sha256": "b3c16f67fe20c1b2ed367786697920c402b1d938be687363d9a2981b7e80cc06"
+    },
+    {
+      "path": "yui/presets.py",
+      "size_bytes": 7613,
+      "sha256": "00d49a0fe515bddde905223fbad161993355a7e937225fa2a2aed085c13878d5"
+    },
+    {
+      "path": "yui/preview.py",
+      "size_bytes": 12694,
+      "sha256": "d35c3067a1bbbfd28c04bfae07575c2f48c1cfca7fa092c01b425bec2dbec424"
+    },
+    {
+      "path": "yui/runtime.py",
+      "size_bytes": 213,
+      "sha256": "b29ddf52b4436062a67c05202bf48b42f31dd4586308e338ed0ea47787578ba7"
+    },
+    {
+      "path": "yui/settings.py",
+      "size_bytes": 9078,
+      "sha256": "72584cb18fa2ae23b010d1d46359f1c70e3b667d6ae25dbc944afd96b9f0cd4c"
+    },
+    {
+      "path": "yui/source_bundle.py",
+      "size_bytes": 5115,
+      "sha256": "392f1e4a1ac66cd530db053e3aa461633f79e04f34d3c5e10662201b12bdce08"
+    },
+    {
+      "path": "yui/toolbox.py",
+      "size_bytes": 27952,
+      "sha256": "ee96a7eeb945d40c02716551fcaecadbf46a178855c6e0e9003928a1ac810ca3"
+    },
+    {
+      "path": "yui/transforms.py",
+      "size_bytes": 5431,
+      "sha256": "a670b180dfd08ff0e9636fca31352cd093fc1263276b495cd380df5816de3cdd"
+    },
+    {
+      "path": "yui/ui.py",
+      "size_bytes": 109487,
+      "sha256": "ca0a54a93732345a334fbada16d00c0d2c5638cc7f55ccc2af2a18186ede965c"
+    },
+    {
+      "path": "yui/widgets.py",
+      "size_bytes": 3116,
+      "sha256": "1744dbe018effb27cc9ee443622ab8cd7377fda9f489e3b164dfc5ebd0387104"
+    },
+    {
+      "path": "yui/windows.py",
+      "size_bytes": 7297,
+      "sha256": "920d5a69f3b58e939387a1fa9732b0da8aac036b1c5cf7a9fb65a023b3936925"
+    },
+    {
+      "path": "YuiGifConverter.spec",
+      "size_bytes": 2096,
+      "sha256": "21ba1caab56a8404b8ed9f68ef1f7376043cca786aa4d188cf79b19c08d49730"
+    }
+  ],
+  "publication": {
+    "format": "Git repository files and directories",
+    "branch": "main",
+    "application_source_unchanged": true
+  }
+}

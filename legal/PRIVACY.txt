@@ -1,0 +1,23 @@
+{APP_NAME} — PRIVACY
+Updated {TERMS_VERSION}
+
+LOCAL PROCESSING
+Your videos and images stay on your computer. Yui has no sign-in, account connections, analytics, advertising, tracking or automatic updates. It does not access credentials or browser profiles. Media processing uses local files; network shares and network references inside media are blocked.
+
+Original files are kept. Exported GIFs omit source metadata; visible content remains. Anonymous GIF filenames are enabled by default, so source filenames are not reused. You can choose a name with Save as or disable anonymous names in Settings. Conversion uses a checked local temporary folder and removes working files when it finishes, fails or is cancelled. GIFs go to your chosen folder, or by default to %LOCALAPPDATA%\YuiGifConverter\GIFs.
+
+SAVED ON THIS COMPUTER
+Inside %APPDATA%\YuiGifConverter:
+• settings.json — options, appearance, output folder and accepted terms version.
+• presets.json — saved names and conversion options; no media or file paths.
+• error.log — exception types and code locations if an error occurs; new entries omit media names, full paths and exception messages.
+
+Delete that folder to remove preferences, presets and logs. Your exported GIFs are kept separately. Delete the program file to remove the app.
+
+OPTIONAL ACTIONS
+• Ko-fi: clicking Support Yui opens https://ko-fi.com/yui_xxx in your browser. Yui receives no account or payment details.
+• Yui on JuicyChat: opens the creator profile in your browser when clicked. Its profile picture is bundled locally; the app does not sign in or connect to a JuicyChat account.
+• Copy GIF: copies a file to the Windows clipboard when you choose it, with Windows clipboard-history and cloud-sync exclusion flags. Other clipboard tools may follow their own rules.
+• Send to: adds or removes the Explorer shortcut when you change the setting.
+
+Cloud-sync software may sync folders you choose. External websites and other applications manage their own accounts and privacy. Yui does not connect to those accounts. The Ko-fi and JuicyChat links and profile picture are intentional public creator branding.

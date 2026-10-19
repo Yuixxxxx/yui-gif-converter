@@ -1,0 +1,20 @@
+{APP_NAME} — TERMS OF USE
+Updated {TERMS_VERSION}
+
+FREE USE AND SHARING
+{AUTHOR} grants you a free, non-exclusive license to install and use this app on devices you own or control, for personal or commercial work. You may share unmodified copies free of charge if these terms and the third-party notices are included.
+
+You may not sell, rent, sublicense or bundle the app in a paid product without permission, remove its copyright or license notices, or present it as your own work. These restrictions do not limit any rights granted by the licenses of the app's third-party components.
+
+YOUR FILES
+You keep your rights to the files you convert. You are responsible for having permission to use and share your content and for following applicable law. Yui processes files locally and does not upload them or change your original files. Keep backups of important files.
+
+OPEN-SOURCE COMPONENTS
+The app runs FFmpeg as a separate program under the GNU GPLv3 and includes other open-source components. Their own licenses apply to them. Read Settings → Licenses for credits, full license texts and source references.
+
+WARRANTY AND LIABILITY
+The app is provided "as is", without warranties of merchantability, fitness for a particular purpose, title or non-infringement. Error-free operation, output quality and acceptance by other services are not guaranteed.
+
+To the extent permitted by law, {AUTHOR} is not liable for indirect, incidental, special, consequential or punitive damages, or loss of data, files, profits or goodwill arising from use of the app. Total liability is limited to the amount paid for the app. Mandatory consumer rights still apply.
+
+Copyright © {YEAR} {AUTHOR}. All rights reserved.
