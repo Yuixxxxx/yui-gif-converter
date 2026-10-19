@@ -136,16 +136,16 @@ SHA-256 of the **Windows ZIP**:
 Yui is free to use. If it makes your day easier, a little support helps keep
 the updates coming.
 
-<table>
+<table align="center">
   <tr>
     <td width="50%" align="center">
-      <a href="https://ko-fi.com/yui_xxx"><img src="assets/kofi-logo.png" alt="Ko-fi" width="64"></a><br>
-      <a href="https://ko-fi.com/yui_xxx"><strong>Buy me a matcha ↗</strong></a><br>
+      <a href="https://ko-fi.com/yui_xxx"><img src="assets/kofi-logo.png" alt="Ko-fi" width="80" height="64"></a><br>
+      <a href="https://ko-fi.com/yui_xxx"><strong>Buy&nbsp;me&nbsp;a&nbsp;matcha&nbsp;↗</strong></a><br>
       <sub>Optional support on Ko-fi</sub>
     </td>
     <td width="50%" align="center">
       <a href="https://www.juicychat.ai/userdetailspace/1933409514837725186"><img src="assets/juicychat-avatar.png" alt="Yui's creator profile avatar" width="64" height="64"></a><br>
-      <a href="https://www.juicychat.ai/userdetailspace/1933409514837725186"><strong>Yui on JuicyChat ↗</strong></a><br>
+      <a href="https://www.juicychat.ai/userdetailspace/1933409514837725186"><strong>Yui&nbsp;on&nbsp;JuicyChat&nbsp;↗</strong></a><br>
       <sub>Visit the creator profile</sub>
     </td>
   </tr>
